@@ -21,5 +21,4 @@ function calcularPrecioTotal() {
 
     //modifico el input precio final para poner el total con descuento
     document.getElementById("precioFinal").value=precioFin;
-    document.getElementById("precionFinal2").innerHTML=precioFin;
 }

@@ -100,43 +100,44 @@
     </div>
 
     <!-- formulario tickets -->
-  <div class="container ">
-    <div class="fs-3 text-center my-3" id="venta">Comprar entradas</div>
+    <div class="container ">
+      <div class="fs-3 text-center my-3" id="titulo">Comprar entradas</div>
       <form action="#" method="post">
         <div class="row mx-5">
-            <div class="col-md mb-3">
+          <div class="col-md mb-3">
             <input type="text" name="nombre" id="nombre" class="form-control" required placeholder="Nombre">
-            </div>
-            <div class="col-md mb-3">
+          </div>
+          <div class="col-md mb-3">
             <input type="text" name="apellido" id="apellido" class="form-control" required placeholder="Apellido">
-            </div>
+          </div>
         </div>
         <div class="row mx-5">
-            <div class="col-md-7 mb-3">
-                <input type="email" name="email" id="email" class="form-control" required placeholder="email">
-            </div>
-            <div class="col-md-5 mb-3">
-                <input type="text" name="tel" id="tel" class="form-control" required placeholder="telefono móvil">
-            </div>
+          <div class="col-md-7 mb-3">
+              <input type="email" name="email" id="email" class="form-control" required placeholder="email">
+          </div>
+          <div class="col-md-5 mb-3">
+              <input type="text" name="tel" id="tel" class="form-control" required placeholder="telefono móvil">
+          </div>
         </div>
-
+  
         <div class="row mx-5">
-            <div class="col-md mb-3">
+          <div class="col-md mb-3">
             <input type="number" name="cantEntradas" id="cantEntradas" onkeyup="calcularPrecioTotal()" class="form-control" required placeholder="Cantidad de Entradas" min="1" max="15">
-            </div>
-            <div class="col-md mb-3">
+            <small text color black>Precio por entrada $1000</small>
+          </div>
+          <div class="col-md mb-3">
             <select class="form-select" id="porcDescuento" onchange="calcularPrecioTotal()" >
-                <option value="0">Seleccionar</option>
-                <option value="80">Estudiante</option>
-                <option value="50">Trainée</option>
-                <option value="15">Junior</option>
+              <option value="0">Seleccionar</option>
+              <option value="10">Particular</option>
+              <option value="30">Estudiante</option>
+              <option value="50">Orador</option>
             </select>          
-            </div>
-            <div class="col-md mb-3">
+          </div>
+          <div class="col-md mb-3">
             <input type="text" name="precioFinal" id="precioFinal" class="form-control" disabled placeholder="Precio con descuento">
-            </div>
+          </div>
         </div>
-      </form> 
+  
     <!-- BOTON COMPRAR -->
       <div class="col-md-5 mx-auto">
         <div class="row mb-5 " id="Comprar">
