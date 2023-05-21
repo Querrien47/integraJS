@@ -15,7 +15,7 @@ function calcularPrecioTotal() {
     let descuento=(cantEnt*1000) * porcDesc/100;
     console.log("descuento: " + descuento);
 
-    //pretio total a pagar con el descuento
+    //precio total a pagar con el descuento
     let precioFin=(cantEnt*1000) - descuento;
     console.log("precioFin: " + precioFin);
 
