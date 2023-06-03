@@ -73,7 +73,31 @@
               <h5 class="card-title">Estudiante</h5>
               <p class="card-text">Tienen un descuento</p>
               <h4 class="card-title"><strong>80%</strong></h4>
-              <p class="card-text">*presentar documentación</p>
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn--bs-danger-border-subtle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                  *presentar documentación
+                </button>
+  
+                <!-- Modal -->
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="staticBackdropLabel">Estudiante</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Certificado de estudios
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                          <button type="button" class="btn btn-primary">Understood</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+              <!-- <p class="card-text">*presentar documentación</p> -->
             </div>
           </div>
         </div>
@@ -83,7 +107,31 @@
                 <h5 class="card-title">Trainée</h5>
                 <p class="card-text">Tienen un descuento</p>
                 <h4 class="card-title"><strong>50%</strong></h4>
-                <p class="card-text">*presentar documentación</p>
+                  <!-- Button trigger modal -->
+              <button type="button" class="btn btn--bs-danger-border-subtle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                *presentar documentación
+              </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Trainée</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        CV actualizado
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- <p class="card-text">*presentar documentación</p> -->
             </div>
             </div>
         </div>
@@ -93,7 +141,31 @@
                 <h5 class="card-title">Junior</h5>
                 <p class="card-text">Tienen un descuento</p>
                 <h4 class="card-title"><strong>15%</strong></h4>
-                <p class="card-text">*presentar documentación</p>
+
+                <!-- Button trigger modal -->
+              <button type="button" class="btn btn--bs-danger-border-subtle" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                *presentar documentación
+              </button>
+
+              <!-- Modal -->
+                <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="staticBackdropLabel">Junior</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        Certificado de trabajo
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Understood</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <p class="card-text">*presentar documentación</p> -->
             </div>
             </div>
         </div>
@@ -134,15 +206,6 @@
               <option value="15">Junior</option>
             </select>          
           </div>
-          <!-- <div class="mb-3">
-            <select class="form-select" required aria-label="select example">
-              <option value="">Open this select menu</option>
-              <option value="1">One</option>
-              <option value="2">Two</option>
-              <option value="3">Three</option>
-            </select>
-            <div class="invalid-feedback">Example invalid select feedback</div>
-          </div> -->
           <div class="col-md mb-3">
             <input type="text" name="precioFinal" id="precioFinal" class="form-control" disabled placeholder="Precio con descuento">
           </div>
