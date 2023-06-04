@@ -199,7 +199,7 @@
             <small text color black>Precio por entrada $1000</small>
           </div>
           <div class="col-md mb-3">
-            <select class="form-select" id="porcDescuento" onchange="calcularPrecioTotal()" >
+            <select class="form-select" id="porcDescuento" onchange="calcularPrecioTotal()"required >
               <option value="">Categoría</option>
               <option value="80">Estudiante</option>
               <option value="50">Trainée</option>
@@ -219,10 +219,14 @@
             <input type="submit" value="Comprar" class="btn btn-primary" >        
         </div>
       </div>
+
+      
       
         <button type="reset" value="reset" class="btn btn-success btn-lg"> Borrar </button>
+       
         <button type="button" class="btn btn-success btn-lg">Resumen</button>
-        
+       
+      
     </form>
       
 
